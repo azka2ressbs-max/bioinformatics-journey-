@@ -1,0 +1,18 @@
+# Day 1: Big Picture and Setup
+
+## 1. What are the three main data types in bioinformatics?
+- **Sequences:** DNA, RNA and protein strings.
+- **Structures:** 3D shapes of proteins and other molecules.
+- **Expression data:** how active each gene is in a cell or tissue.
+
+## 2. Which database would I use?
+- **Protein sequence:** UniProt
+- **3D structure:** PDB (experimental) or AlphaFold DB (AI-predicted)
+
+## 3. What surprised me about the insulin entries?
+Insulin is first made as a longer precursor protein (110 amino acids) and then cut into a small two-chain hormone (51 amino acids). I also noticed the gene is on the reverse strand of chromosome 11, so the complement has to be read to get the right sequence.
+
+## What I did today
+- Created my GitHub account and this repository
+- Set up Google Colab
+- Explored NCBI, UniProt and PDB using human insulin (INS, Gene ID 3630, UniProt P01308)
